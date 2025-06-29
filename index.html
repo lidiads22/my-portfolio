@@ -7,7 +7,8 @@
     <!-- Tailwind CDN (for simple static sites) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
+    <script src="path/to/t-writer.js"></script>
     <title>Lidia De Santiago Portfolio</title>
   </head>
   <body>
@@ -41,7 +42,25 @@
               
               <!-- Text content -->
               <div class="flex-1 text-center lg:text-left">
-                <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white">
+                <h1  id="typewriter" class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white">
+                  <script>
+                    var app = document.getElementById('typewriter');
+                  
+                    var typewriter = new Typewriter(app, {
+                      loop: true
+                    });
+                  
+                    typewriter
+                      .typeString('Hi, I’m Lidia De Santiago')
+                      .pauseFor(2000)
+                      .deleteAll()
+                      .typeString('Welcome to my portfolio!')
+                      .pauseFor(2000)
+                      .deleteAll()
+                      .typeString('Let’s build something great.')
+                      .pauseFor(2000)
+                      .start();
+                  </script>
                   <span
                     class="inline-block overflow-hidden whitespace-nowrap border-r-2 border-white pr-2 animate-typewriter"
                     style="width: 0"
