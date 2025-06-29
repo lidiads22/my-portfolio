@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Add this in your head -->
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
     <title>Projects</title>
   </head>
   <body>
@@ -24,7 +27,7 @@
             <a href="index.html" class="block text-white transition-colors duration-300 hover:text-indigo-300">Home</a>
             <a href="index.html" class="block text-white transition-colors duration-300 hover:text-indigo-300">About</a>
             <a href="#experience" class="block text-white transition-colors duration-300 hover:text-indigo-300">Experience</a>
-            <a href="#projects" class="block text-white transition-colors duration-300 hover:text-indigo-300">Projects</a>
+            <a href="projects.html" class="block text-white transition-colors duration-300 hover:text-indigo-300">Projects</a>
             <a href="#contact" class="block text-white transition-colors duration-300 hover:text-indigo-300">Contact</a>
           </div>          
         </nav>
@@ -151,29 +154,33 @@
   
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
   
-        <!-- Loan Processing System Card -->
-        <div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
-            <img src="/img/phpPic.png" alt="PHP Screenshot" class="w-full h-48 object-cover" />
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Loan Document Processing System</h3>
-            <p class="mt-2 text-sm text-gray-600">
-              Developed a validation engine using <strong>PHP</strong> and <strong>SQL</strong> to generate <strong>real-time compliance reports</strong> for document workflows, reducing manual effort by 90%. Integrated <strong>cron jobs</strong>, <strong>error logging</strong>, and deployed to <strong>AWS EC2</strong> with <strong>secure access</strong>.
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
-              <span class="bg-indigo-100 px-2 py-1 rounded">PHP</span>
-              <span class="bg-indigo-100 px-2 py-1 rounded">SQL</span>
-              <span class="bg-indigo-100 px-2 py-1 rounded">cron</span>
-              <span class="bg-indigo-100 px-2 py-1 rounded">AWS EC2</span>
-              <span class="bg-indigo-100 px-2 py-1 rounded">dompdf</span>
-            </div>
-          </div>
-        </div>
-  
-        <!-- You can add more cards here -->
-        
-      </div>
+       <!-- Loan Processing System Card -->
+<div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+  <img src="/img/phpPic.png" alt="PHP Screenshot" class="w-full h-48 object-cover" />
+  <div class="p-6">
+    <h3 class="text-xl font-semibold text-gray-800">Loan Document Processing System</h3>
+    <p class="mt-2 text-sm text-gray-600">
+      Developed a validation engine using <strong>PHP</strong> and <strong>SQL</strong> to generate
+      <strong>real-time compliance reports</strong> for document workflows, reducing manual effort by 90%. Integrated
+      <strong>cron jobs</strong>, <strong>error logging</strong>, and deployed to <strong>AWS EC2</strong> with
+      <strong>secure access</strong>.
+    </p>
+    <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
+      <span class="bg-indigo-100 px-2 py-1 rounded">PHP</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">SQL</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">cron</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">AWS EC2</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">dompdf</span>
     </div>
-  </section>
+    <div class="mt-4 flex space-x-4">
+      <a href="https://github.com/lidiads22/Database-Management-System-.git" target="_blank" class="text-gray-500 hover:underline text-sm">GitHub</a>
+      <a href="loadDocPage.html" class="text-indigo-500 hover:underline text-sm">View Full Project</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
   
   
       </main>
