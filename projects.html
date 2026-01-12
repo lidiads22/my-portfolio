@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add these after your existing meta tags -->
+<meta name="description" content="Lidia De Santiago - Software Developer Portfolio. Computer Science graduate from UTSA specializing in Java, Python, React, and full-stack development.">
+
+<meta name="keywords" content="Lidia De Santiago, software developer, Java developer, Python developer, full stack developer, React developer, Android developer, UTSA, portfolio">
+
+<!-- Update the title -->
+<title>Projects | Lidia De Santiago - Software Developer</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -65,8 +72,7 @@
       Crafted with Code & Design
     </h2>
 
-      <!-- Slim Freelance Banner (under the wave / above cards) -->
-<!-- Replace the freelance banner with this -->
+  <!-- Slim Freelance Banner (under the wave / above cards) -->
 <section class="mx-auto max-w-5xl px-6 mt-2 text-center mb-10">
   <p class="inline-flex items-center gap-2 text-sm font-medium text-indigo-700 mb-4">
     <span class="inline-block rounded-full bg-indigo-100 px-3 py-1">
@@ -74,8 +80,8 @@
     </span>
   </p>
   <p class="text-gray-700 text-lg">
-    Full-stack developer specializing in React, Vue, and mobile development
-  </p>
+  Showcasing projects in Java, Python, full-stack web development, and mobile applications
+</p>
 
 <div class="mt-8">
   <h3 class="text-xl font-bold text-gray-800 mb-4">Language Proficiency</h3>
@@ -121,9 +127,64 @@
 
 </section>
 
-
-  <!-- Project Card -->
+<section id="technical-projects" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-indigo-600 text-center mb-12">Technical Projects</h2>
+  
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  
+       <!-- Loan Processing System Card -->
+<div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+  <img src="img/phpPic.png" alt="PHP Screenshot" class="w-full h-48 object-cover" />
+  <div class="p-6">
+    <h3 class="text-xl font-semibold text-gray-800">Loan Document Processing System</h3>
+    <p class="mt-2 text-sm text-gray-600">
+      Developed a validation engine using <strong>PHP</strong> and <strong>SQL</strong> to generate
+      <strong>real-time compliance reports</strong> for document workflows, reducing manual effort by 90%. Integrated
+      <strong>cron jobs</strong>, <strong>error logging</strong>, and deployed to <strong>AWS EC2</strong> with
+      <strong>secure access</strong>.
+    </p>
+    <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
+      <span class="bg-indigo-100 px-2 py-1 rounded">PHP</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">SQL</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">cron</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">AWS EC2</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">dompdf</span>
+    </div>
+    <div class="mt-4 flex space-x-4">
+      <a href="https://github.com/lidiads22/Database-Management-System-.git" target="_blank" class="text-gray-500 hover:underline text-sm">GitHub</a>
+      <a href="loadDocPage.html" class="text-indigo-500 hover:underline text-sm">View Full Project</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Investing Journal Card -->
+<div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+  <img src="img/investing.png" alt="Investing Journal App" class="w-full h-48 object-cover" />
+  <div class="p-6">
+    <h3 class="text-2xl font-bold text-indigo-800 mb-2">Investing Journal</h3>
+   <p class="mt-2 text-sm text-gray-600">
+  Built a full-stack trading journal to track and analyze investment performance. 
+  Implemented real-time data visualization with Chart.js, user authentication with 
+  Firebase, and a responsive React interface. Features include custom trade analytics, 
+  performance metrics, and a calendar-based entry system.
+</p>
+<p class="text-xs text-gray-600 italic mb-2">
+  Role: Full-Stack Developer | Solo Project
+</p>
+    <div class="flex flex-wrap gap-2 text-xs text-indigo-800 font-semibold mb-4">
+      <span class="bg-indigo-100 px-2 py-1 rounded">React</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">Tailwind CSS</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">Firebase</span>
+      <span class="bg-indigo-100 px-2 py-1 rounded">Chart.js</span>
+    </div>
+    <div class="flex space-x-4">
+      <a href="https://github.com/lidiads22/investing-repo" target="_blank" class="text-indigo-700 hover:underline text-sm font-medium">GitHub</a>
+    </div>
+  </div>
+</div>
+
+  <!-- Pomodoro ANDROID Card -->
 <div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
   <img src="img/pomodoro_pic.png" alt="Project 1 Screenshot" class="w-full h-48 object-cover" />
   <div class="p-6">
@@ -157,8 +218,58 @@
   </div>
 </div>
 
+       <!-- I'm So Cooked App Project -->
+<div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+    <img src="img/cooked.png" alt="I'm So Cooked App Screenshot" class="w-full h-48 object-cover" />
+    <div class="p-6">
+      <h3 class>I'm So Cooked! App</h3>
+      <h2 class="mt-2 text-sm text-gray-600">
+  A showcase of full-stack applications, mobile apps, and technical solutions 
+  built with modern frameworks and best practices.
+</h2>
+      <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
+        <span class="bg-indigo-100 px-2 py-1 rounded">React Native</span>
+        <span class="bg-indigo-100 px-2 py-1 rounded">Expo</span>
+        <span class="bg-indigo-100 px-2 py-1 rounded">Tailwind CSS</span>
+      </div>
+      <div class="mt-4 flex space-x-4">
+        <a href="https://github.com/imsocookeddev/imsocooked.git" target="_blank" class="text-gray-500 hover:underline text-sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Forex Backtesting -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-indigo-800 mb-2">Forex Backtesting Engine</h3>
+          <p class="text-gray-700 text-sm mb-4">
+            Python-based backtesting framework using Pandas and yfinance to analyze 
+            trading strategies. Processes historical market data and generates 
+            performance metrics for strategy optimization.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs text-indigo-800 font-semibold mb-4">
+            <span class="bg-indigo-100 px-2 py-1 rounded">Python</span>
+            <span class="bg-indigo-100 px-2 py-1 rounded">Pandas</span>
+            <span class="bg-indigo-100 px-2 py-1 rounded">yfinance</span>
+          </div>
+          <a href="https://github.com/lidiads22/forex-backtesting" target="_blank" 
+             class="text-indigo-700 hover:underline text-sm font-medium">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+<h2 class="text-3xl font-bold text-indigo-600 text-center mb-12">Client Work</h2>
+  <!-- Project Card -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
 <!-- LDS Freelance -->
 <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+  
   <img src="img/lds-site.png" alt="LDS Web Designs" class="w-full h-48 object-cover" />
   <div class="p-6">
     <h3 class="text-2xl font-bold text-indigo-800 mb-2">LDS Web Designs</h3>
@@ -180,52 +291,7 @@
     </div>
   </div>
 </div>
-
-<!-- Investing Journal Card -->
-<div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
-  <img src="img/investing.png" alt="Investing Journal App" class="w-full h-48 object-cover" />
-  <div class="p-6">
-    <h3 class="text-2xl font-bold text-indigo-800 mb-2">Investing Journal</h3>
-   <p class="text-gray-700 text-base mb-4">
-  Built a full-stack trading journal to track and analyze investment performance. 
-  Implemented real-time data visualization with Chart.js, user authentication with 
-  Firebase, and a responsive React interface. Features include custom trade analytics, 
-  performance metrics, and a calendar-based entry system.
-</p>
-<p class="text-xs text-gray-600 italic mb-2">
-  Role: Full-Stack Developer | Solo Project
-</p>
-    <div class="flex flex-wrap gap-2 text-xs text-indigo-800 font-semibold mb-4">
-      <span class="bg-indigo-100 px-2 py-1 rounded">React</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">Tailwind CSS</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">Firebase</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">Chart.js</span>
-    </div>
-    <div class="flex space-x-4">
-      <a href="https://github.com/lidiads22/investing-repo" target="_blank" class="text-indigo-700 hover:underline text-sm font-medium">GitHub</a>
-    </div>
-  </div>
-</div>
   
-       <!-- I'm So Cooked App Project -->
-<div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
-    <img src="img/cooked.png" alt="I'm So Cooked App Screenshot" class="w-full h-48 object-cover" />
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-gray-800">I'm So Cooked! App</h3>
-      <p class="mt-2 text-sm text-gray-600">
-        A gamified cooking education app where users progress through global recipe levels, answer quizzes, and explore interactive food facts. Built with Expo, React Native, and Tailwind CSS.
-      </p>
-      <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
-        <span class="bg-indigo-100 px-2 py-1 rounded">React Native</span>
-        <span class="bg-indigo-100 px-2 py-1 rounded">Expo</span>
-        <span class="bg-indigo-100 px-2 py-1 rounded">Tailwind CSS</span>
-      </div>
-      <div class="mt-4 flex space-x-4">
-        <a href="#" target="_blank" class="text-indigo-500 hover:underline text-sm"></a>
-        <a href="https://github.com/imsocookeddev/imsocooked.git" target="_blank" class="text-gray-500 hover:underline text-sm">GitHub</a>
-      </div>
-    </div>
-  </div>
   
        <!-- Gustavo's Carpentry Website Project -->
 <div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
@@ -315,62 +381,33 @@
     </div>
   </section>
 
-  <section id="technical-projects" class="bg-white py-16">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-indigo-600 text-center mb-12">Technical Projects</h2>
   
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  
-       <!-- Loan Processing System Card -->
-<div class="bg-gray-50 shadow rounded-lg overflow-hidden hover:shadow-lg transition">
-  <img src="img/phpPic.png" alt="PHP Screenshot" class="w-full h-48 object-cover" />
-  <div class="p-6">
-    <h3 class="text-xl font-semibold text-gray-800">Loan Document Processing System</h3>
-    <p class="mt-2 text-sm text-gray-600">
-      Developed a validation engine using <strong>PHP</strong> and <strong>SQL</strong> to generate
-      <strong>real-time compliance reports</strong> for document workflows, reducing manual effort by 90%. Integrated
-      <strong>cron jobs</strong>, <strong>error logging</strong>, and deployed to <strong>AWS EC2</strong> with
-      <strong>secure access</strong>.
+<!-- Footer with CTA -->
+<footer class="bg-indigo-600 text-white py-12 mt-16">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-2xl font-bold mb-4">Interested in Working Together?</h3>
+    <p class="mb-6 text-indigo-100">
+      I'm actively seeking full-time software development opportunities. 
+      Let's build something great together!
     </p>
-    <div class="mt-4 flex flex-wrap gap-2 text-xs text-indigo-700 font-medium">
-      <span class="bg-indigo-100 px-2 py-1 rounded">PHP</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">SQL</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">cron</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">AWS EC2</span>
-      <span class="bg-indigo-100 px-2 py-1 rounded">dompdf</span>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="Resume.pdf" download class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition">
+        Download Resume
+      </a>
+      <a href="index.html#contact" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">
+        Contact Me
+      </a>
     </div>
-    <div class="mt-4 flex space-x-4">
-      <a href="https://github.com/lidiads22/Database-Management-System-.git" target="_blank" class="text-gray-500 hover:underline text-sm">GitHub</a>
-      <a href="loadDocPage.html" class="text-indigo-500 hover:underline text-sm">View Full Project</a>
+    <div class="mt-8 flex justify-center gap-6 text-sm">
+      <a href="https://github.com/lidiads22" target="_blank" class="hover:text-indigo-200 transition">GitHub</a>
+      <a href="https://www.linkedin.com/in/lidia-de-santiago/" target="_blank" class="hover:text-indigo-200 transition">LinkedIn</a>
+      <a href="mailto:lidia.dsan22@gmail.com" class="hover:text-indigo-200 transition">Email</a>
     </div>
+    <p class="mt-6 text-sm text-indigo-200">
+      © 2024 Lidia De Santiago. All rights reserved.
+    </p>
   </div>
-  </div>
-
-  <!-- Forex Backtesting -->
-      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-indigo-800 mb-2">Forex Backtesting Engine</h3>
-          <p class="text-gray-700 text-sm mb-4">
-            Python-based backtesting framework using Pandas and yfinance to analyze 
-            trading strategies. Processes historical market data and generates 
-            performance metrics for strategy optimization.
-          </p>
-          <div class="flex flex-wrap gap-2 text-xs text-indigo-800 font-semibold mb-4">
-            <span class="bg-indigo-100 px-2 py-1 rounded">Python</span>
-            <span class="bg-indigo-100 px-2 py-1 rounded">Pandas</span>
-            <span class="bg-indigo-100 px-2 py-1 rounded">yfinance</span>
-          </div>
-          <a href="https://github.com/lidiads22/forex-backtesting" target="_blank" 
-             class="text-indigo-700 hover:underline text-sm font-medium">GitHub</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  
-</section>
-  
+</footer>
   
       </main>
     </body>    
